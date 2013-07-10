@@ -12,15 +12,17 @@ javaSequencer
  
  Example to produce all domino stones: 
  
- import static ch.programmieraufgaben.iteration.Sequencer.seq;
- 
- for(int first : card(6)) {
-          for(int second : range(first, 6)) {
-              System.out.println("("+ first + "|" + second + ")");
-          }
-      }
+  import static eu.gressly.util.Sequencer.*;
+  
+  for(int first : card(6)) {
+    for(int second : range(first, 6)) {
+      System.out.println("("+ first + "|" + second + ")");
+    }
+  }
+
   
  Or simply use a code 100 times:
  
    for(int i : ord(100)) { 
-     myCode(i); }
+     myCode(i); 
+   }
