@@ -26,3 +26,9 @@ javaSequencer
    for(int i : ord(100)) { 
      myCode(i); 
    }
+
+provides
+
+range(from, to)
+card(to)  = range(0, to)
+ord(to)   = range(1, to)
