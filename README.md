@@ -29,6 +29,8 @@ javaSequencer
 
 provides
 
-range(from, to)
-card(to)  = range(0, to)
-ord(to)   = range(1, to)
+range(min, max)
+
+card(max)  = range(0, max)
+
+ord(last)   = range(1, last)
